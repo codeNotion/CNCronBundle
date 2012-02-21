@@ -4,17 +4,13 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
 
-    <!--
     <parameters>
-        <parameter key="cn_cron.example.class">CN\CronBundle\Example</parameter>
+        <parameter key="cn_cron.task_pool.class">CN\Bundle\CronBundle\TaskPool</parameter>
     </parameters>
 
     <services>
-        <service id="cn_cron.example" class="%cn_cron.example.class%">
-            <argument type="service" id="service_id" />
-            <argument>plain_value</argument>
-            <argument>%parameter_name%</argument>
+        <service id="cn_cron.task_pool" class="%cn_cron.task_pool.class%">
         </service>
     </services>
-    -->
+
 </container>
