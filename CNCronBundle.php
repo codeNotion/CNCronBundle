@@ -1,10 +1,10 @@
 <?php
 
-namespace CN\Bundle\CronBundle\DependencyInjection\Compiler;
+namespace CN\Bundle\CronBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
-use CN\Bundle\CronBundle\TaskCompilerPass;
+use CN\Bundle\CronBundle\DependencyInjection\Compiler\TaskCompilerPass;
 
 class CNCronBundle extends Bundle
 {
