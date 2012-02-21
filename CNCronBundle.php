@@ -1,6 +1,6 @@
 <?php
 
-namespace CN\Bundle\CronBundle;
+namespace CN\Bundle\CronBundle\DependencyInjection\Compiler;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
